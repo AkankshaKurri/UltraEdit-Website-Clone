@@ -1,0 +1,372 @@
+@media screen and (max-width:900px){
+    .grid{
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 23px;
+        margin-left: 150px;
+    }
+
+    .first_line{
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .second_line{
+       text-align: center;
+       margin: 0 150px;
+    }
+
+    .logo img{
+       padding-right: 50px;
+    }
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: 'Segoe UI';
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+.logo img{
+    height:60px;
+    width: 180px;
+}
+
+.right ul{
+    display: flex;
+}
+
+.right ul li{
+    list-style: none;
+}
+
+.right ul li span{
+    padding:5px;
+    display: flex;
+    align-items: center;
+    cursor:pointer;          /*cursor leke jaayegi na aarrow haath ban jaayega*/
+}
+
+body{
+    font-family: "Segoe UI";
+}
+
+.first_line{
+    text-align: center;
+    padding-top:69px;
+    padding-bottom:15px;
+    font-size:50px;
+}
+
+.first_line img{
+    margin-top: 25px;
+    gap: 22px;
+}
+
+.second_line{
+    text-align: center;
+    padding-bottom:25px;
+    padding-top: 18px;
+    margin:0px 303px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.third_line{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 70px;
+}
+
+.third_line > button{
+    color:whitesmoke;
+    background-color:#00b6d1;
+    border:0cm;
+    padding: 15px 20px;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.fourth_line{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left:223px;
+}
+
+
+.fourth_line h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fourth_line small{
+    font-size: 14.4px;
+}
+
+.two{
+    margin: auto;
+    max-width: 70vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+}
+
+.item{
+    background-color:rgb(249, 249, 249);
+    height: 120px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 23px;
+}
+
+.item_lang{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item_lang2{
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+
+.firstbutton{
+     color:whitesmoke;
+     background-color:#00b6d1;
+     border: 0cm;
+     padding: 11px 21px;
+     border-radius: 5px;
+     margin-right:5px;
+     font-weight: bold;
+}
+
+.secondbutton{
+     color:whitesmoke;
+     background-color:rgb(94, 185, 94);
+     border: 0cm;
+     padding: 11px 21px;
+     border-radius: 5px;
+     font-weight: bold;
+}
+
+.three{
+    background-color:rgb(34, 34, 34);
+    height: 600px;
+    padding: 60px 209px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.upper_sec{
+    display:flex;
+}
+
+.left_text{
+    color: aliceblue;
+    text-align: center;
+    padding: 128px 0px;
+    margin-right: 234px;
+    margin-left: 78px;
+    
+}
+
+.left_text h1{
+   font-size:24px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left_text span{
+    font-size:16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right_box{
+    background-color:rgb(255, 255, 255);
+    height:260px;
+    width: 353px;
+    border-radius: 15px;
+}
+
+
+.right_box h3{
+    color:#00b6d1;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 0px;
+    font-size: 25px;
+}
+
+.right_box h4{
+    text-align: center;
+    font-weight: 400;
+}
+
+#email{
+    height: 53px;
+    width: 290px;
+    margin:0px 25px;
+    text-align: center;
+}
+
+#signup{
+    height: 53px;
+    width: 295px;
+    margin:10px 25px;
+    background-color:#00b6d1;
+    border: none;
+    color:aliceblue;
+    font-weight:bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.bottom_text{
+    color: aliceblue;
+    line-height: 2.5em;
+    margin: 0px 50px;
+}
+
+.five{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: center;
+    list-style: none;
+    gap: 49px;
+    margin: 110px 190px;;
+}
+
+.first_sec h3{
+    margin-bottom: 29px;
+    font-size: 16px;
+    font-family: "Segoe UI";
+}
+
+.first_sec ul li{
+    list-style: none;
+    font-size: 14px;
+    font-family: "Segoe UI";
+}
+
+.second_sec h3{
+    margin-bottom: 29px;
+    font-size: 16px;
+    font-family: "Segoe UI";
+}
+
+.second_sec ul li{
+    list-style: none;
+    font-size: 14px;
+    font-family: "Segoe UI";
+}
+
+.third_sec h3{
+    margin-bottom: 29px;
+    font-size: 16px;
+    font-family: "Segoe UI";
+}
+
+.third_sec ul li{
+    list-style: none;
+    font-size: 14px;
+    font-family: "Segoe UI";
+}
+
+.fourth_sec h3{
+    margin-bottom: 29px;
+    font-size: 16px;
+    font-family: "Segoe UI";
+}
+
+.fourth_sec ul li{
+    list-style: none;
+    font-size: 14px;
+    font-family: "Segoe UI";
+}
+
+.fourth_sec span{
+    text-align: left;
+    text-wrap:wrap;
+}
+
+#emailaddress{
+    height: 33px;
+    width: 260px;
+    margin: 15px -4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#subscribe{
+    height: 33px;
+    width: 260px;
+    margin:1px -4px;
+    background-color:#00b6d1;
+    border: none;
+    color:aliceblue;
+    font-weight:bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.six{
+    height: 78px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left_images{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.copyright span{
+    margin-left: 264px;
+    padding-bottom: 64px;
+}
+
+.arrow{
+   display: flex;
+   justify-content: flex-end;
+   bottom: 20px; 
+   right: 20px;
+}
+
+.arrow button{
+    background-color: #00b6d1;
+    border: none;
+    position: sticky;
+}
+
+.html{
+    position: absolute;
+}
+
